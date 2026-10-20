@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset type: panoramic pixel-art banner for a minimal GitHub profile and its HTML preview.
+Primary request: a quiet AI engineer's workspace with a computer, legal reference books, and a small robot assistant.
+Scene: side-on view of a tidy desk against a wide dusk window, with a restrained city skyline outside. A simple terminal on the monitor, a few books and papers, and a small friendly robot beside them connect language, documents, and AI.
+Style: carefully composed 16-bit pixel art, crisp square pixels, consistent coarse pixel grid, no antialiasing, flat clusters of color, subtle dithering only where helpful.
+Composition: wide 3:1 banner, ideally 1536 by 512; desk and subjects in the central 70 percent, uncluttered outer margins. Keep the central scene readable when cropped to 5:2 on mobile.
+Palette: midnight navy, slate blue, muted cyan, warm ivory, with very small amber highlights. Calm and minimal; readable on a light or dark profile.
+Text: none. No logos, lettering, watermarks, labels, gradients, or UI mockup. Do not include page design, profile cards, or browser chrome; create only the illustrated scene.
