@@ -2,7 +2,7 @@
 
 # quoocnhaan
 
-**AI Engineer** · NLP, retrieval & document intelligence
+**AI Engineer**
 
 I'm an AI Engineer interested in machine learning, language models, and software development. This is where I share what I'm working on and learning.
 
