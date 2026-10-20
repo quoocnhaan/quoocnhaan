@@ -10,20 +10,6 @@ I'm an AI Engineer interested in machine learning, language models, and software
 [![LinkedIn](assets/social/linkedin.svg)](https://www.linkedin.com/in/quoocnhaan)
 [![LeetCode](assets/social/leetcode.svg)](https://leetcode.com/u/quoocnhaan/)
 
-### Selected work
-
-**Legal Agent Chatbot**<br>
-A conversational AI agent focused on legal information and question answering.
-
-**[Hybrid RAG & Reasoning](https://github.com/quoocnhaan/question_answering)**<br>
-Question answering with query routing, concurrent web retrieval, and cross-encoder reranking using local LLMs.
-
-**[Vietnamese OCR Benchmark](https://github.com/quoocnhaan/benchmark_ocr)**<br>
-OCR evaluation for Vietnamese documents, with character and word error rates, latency tracking, and reproducible comparisons.
-
-**[Aspect-Based Sentiment Analysis](https://github.com/quoocnhaan/absa_project)**<br>
-Exploring aspect extraction and sentiment classification with PhoBERT, from text preprocessing to model evaluation.
-
 ### Tech stack
 
 <p>
