@@ -26,10 +26,6 @@ I'm an AI Engineer interested in machine learning, language models, and software
   <img src="assets/stack/docker.svg" alt="Docker" title="Docker" width="44" height="44">
 </p>
 
-Python · PyTorch · Hugging Face · Ollama · FastAPI · vLLM · NumPy · pandas · Git · GitHub · Docker
-
-PhoBERT · Semantic search · Model evaluation
-
 ---
 
 [All repositories](https://github.com/quoocnhaan?tab=repositories)
