@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="description" content="quoocnhaan — AI Engineer working on legal agents, retrieval, OCR, and Vietnamese NLP.">
-    <title>quoocnhaan · AI Engineer</title>
+    <meta name="description" content="quoocnhaan — AI Engineer working on machine learning and language models.">
+    <title>Lam Quoc Nhan · AI Engineer</title>
     <script>
       try {
         const savedTheme = localStorage.getItem('profile-theme');
@@ -110,24 +110,23 @@
       h1 { margin: 0; font-size: clamp(30px, 5vw, 42px); line-height: 1.15; letter-spacing: -1.6px; font-weight: 650; }
       .role { margin: 12px 0 16px; color: var(--muted); font-size: 15px; }
       .role strong { color: var(--accent); font-weight: 600; }
-      .intro { max-width: 72ch; margin: 0; font-size: 16px; line-height: 1.75; }
       .socials { display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; margin-top: 16px; }
       .social-badge { display: inline-flex; align-items: center; min-height: 44px; }
       .social-badge img { display: block; height: 28px; max-width: 100%; }
       a.social-badge:hover { opacity: .85; }
-      .work { margin-top: 36px; }
-      h2 { margin: 0 0 22px; font-size: 19px; line-height: 1.4; letter-spacing: -.3px; font-weight: 600; }
-      .projects { display: grid; gap: 24px; }
-      .project h3 { margin: 0 0 4px; font-size: 16px; font-weight: 600; line-height: 1.5; }
-      .project h3 a { text-decoration: none; }
-      .project h3 a:hover { text-decoration: underline; }
-      .project p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.7; max-width: 76ch; }
-      .tools { margin-top: 32px; }
-      .tools h2 { margin-bottom: 12px; }
-      .tools p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.9; }
-      .stack { display: flex; flex-wrap: wrap; gap: 18px 24px; list-style: none; padding: 0; margin: 0 0 18px; }
-      .stack li { display: flex; flex-direction: column; align-items: center; gap: 7px; min-width: 56px; }
-      .stack img { display: block; width: 44px; height: 44px; }
+      section { margin-top: 36px; }
+      h2 { margin: 0 0 16px; font-size: 19px; line-height: 1.4; letter-spacing: -.3px; font-weight: 600; }
+      .about p { max-width: 72ch; margin: 0 0 18px; line-height: 1.75; }
+      .facts { display: grid; gap: 8px; list-style: none; padding: 0; margin: 0; font-size: 15px; }
+      .facts li { display: grid; grid-template-columns: 28px 140px 1fr; align-items: baseline; }
+      .facts b { font-weight: 600; }
+      .facts span:last-child { color: var(--muted); }
+      .stack-groups { display: grid; gap: 18px; }
+      .stack-group { display: grid; grid-template-columns: 140px 1fr; align-items: center; gap: 12px; }
+      .stack-group h3 { margin: 0; color: var(--muted); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .6px; }
+      .stack { display: flex; flex-wrap: wrap; gap: 12px 20px; list-style: none; padding: 0; margin: 0; }
+      .stack li { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 56px; }
+      .stack img { display: block; width: 40px; height: 40px; }
       .stack span { color: var(--muted); font-size: 12px; line-height: 1.5; white-space: nowrap; }
       .divider { margin: 30px 0 20px; border: 0; border-top: 1px solid var(--border); }
       .profile-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; font-size: 13px; }
@@ -141,12 +140,11 @@
         .toolbar { margin-bottom: 12px; }
         .content { padding: 24px 22px; }
         .role { font-size: 14px; max-width: 29ch; }
-        .intro { font-size: 15px; }
-        .work { margin-top: 30px; }
-        .projects { gap: 22px; }
-        .project p { font-size: 14px; }
+        section { margin-top: 30px; }
+        .facts li { grid-template-columns: 28px 1fr; }
+        .facts span:last-child { grid-column: 2; }
+          .stack-group { grid-template-columns: 1fr; }
         .artwork { aspect-ratio: 5 / 2; }
-        .stack { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 12px; max-width: 320px; }
         .signature { display: none; }
       }
     </style>
@@ -162,59 +160,60 @@
         <img class="artwork" src="assets/pixel-workspace.png" alt="Pixel-art AI engineer's workspace with a computer, legal reference books, and a small robot assistant." width="2172" height="724" fetchpriority="high">
         <div class="content">
           <header>
-            <h1 id="profile-name">quoocnhaan</h1>
-            <p class="role"><strong>AI Engineer</strong> · NLP, retrieval &amp; document intelligence</p>
-            <p class="intro">I'm an AI Engineer interested in machine learning, language models, and software development. This is where I share what I'm working on and learning.</p>
+            <h1 id="profile-name">Lam Quoc Nhan</h1>
+            <p class="role"><strong>AI Engineer</strong></p>
             <div class="socials" role="group" aria-label="Social profiles">
               <a class="social-badge" href="https://github.com/quoocnhaan"><img src="assets/social/github.svg" alt="GitHub" width="108" height="28"></a>
               <a class="social-badge" href="https://www.linkedin.com/in/quoocnhaan"><img src="assets/social/linkedin.svg" alt="LinkedIn" width="128" height="28"></a>
               <a class="social-badge" href="https://leetcode.com/u/quoocnhaan/"><img src="assets/social/leetcode.svg" alt="LeetCode" width="132" height="28"></a>
+              <a class="social-badge" href="mailto:nhan.lq0902@gmail.com"><img src="assets/social/gmail.svg" alt="Gmail: nhan.lq0902@gmail.com" width="98" height="28"></a>
             </div>
           </header>
 
-          <section class="work" aria-labelledby="work-heading">
-            <h2 id="work-heading">Selected work</h2>
-            <div class="projects">
-              <article class="project">
-                <h3>Legal Agent Chatbot</h3>
-                <p>A conversational AI agent focused on legal information and question answering.</p>
-              </article>
-              <article class="project">
-                <h3><a href="https://github.com/quoocnhaan/question_answering">Hybrid RAG &amp; Reasoning</a></h3>
-                <p>Question answering with query routing, concurrent web retrieval, and cross-encoder reranking using local LLMs.</p>
-              </article>
-              <article class="project">
-                <h3><a href="https://github.com/quoocnhaan/benchmark_ocr">Vietnamese OCR Benchmark</a></h3>
-                <p>OCR evaluation for Vietnamese documents, with character and word error rates, latency tracking, and reproducible comparisons.</p>
-              </article>
-              <article class="project">
-                <h3><a href="https://github.com/quoocnhaan/absa_project">Aspect-Based Sentiment Analysis</a></h3>
-                <p>Exploring aspect extraction and sentiment classification with PhoBERT, from text preprocessing to model evaluation.</p>
-              </article>
-            </div>
+          <section class="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About me</h2>
+            <p>Hi, I'm Nhan 👋 I'm an AI Engineer with a solid foundation in backend development, machine learning, and AI. I enjoy building things end to end — from training and evaluating models to serving them through reliable, well-designed backends. I'm always learning and love turning ideas into products people can actually use.</p>
+            <ul class="facts" role="list">
+              <li><span aria-hidden="true">🔭</span><b>Currently</b><span>Building AI-powered applications</span></li>
+              <li><span aria-hidden="true">🌱</span><b>Always</b><span>Learning something new</span></li>
+              <li><span aria-hidden="true">🤝</span><b>Open to</b><span>Collaboration and new opportunities</span></li>
+            </ul>
           </section>
 
-          <section class="tools" aria-labelledby="tools-heading">
+          <section aria-labelledby="tools-heading">
             <h2 id="tools-heading">Tech stack</h2>
-            <ul class="stack" role="list" aria-label="Technology stack">
-              <li><img src="assets/stack/python.svg" alt="" width="44" height="44"><span>Python</span></li>
-              <li><img src="assets/stack/pytorch.svg" alt="" width="44" height="44"><span>PyTorch</span></li>
-              <li><img src="assets/stack/huggingface.svg" alt="" width="44" height="44"><span>Hugging Face</span></li>
-              <li><img src="assets/stack/ollama.svg" alt="" width="44" height="44"><span>Ollama</span></li>
-              <li><img src="assets/stack/fastapi.svg" alt="" width="44" height="44"><span>FastAPI</span></li>
-              <li><img src="assets/stack/vllm.svg" alt="" width="44" height="44"><span>vLLM</span></li>
-              <li><img src="assets/stack/numpy.svg" alt="" width="44" height="44"><span>NumPy</span></li>
-              <li><img src="assets/stack/pandas.svg" alt="" width="44" height="44"><span>pandas</span></li>
-              <li><img src="assets/stack/git.svg" alt="" width="44" height="44"><span>Git</span></li>
-              <li><img src="assets/stack/github.svg" alt="" width="44" height="44"><span>GitHub</span></li>
-              <li><img src="assets/stack/docker.svg" alt="" width="44" height="44"><span>Docker</span></li>
-            </ul>
-            <p>PhoBERT · Semantic search · Model evaluation</p>
+            <div class="stack-groups">
+              <div class="stack-group">
+                <h3>ML &amp; LLMs</h3>
+                <ul class="stack" role="list">
+                  <li><img src="assets/stack/python.svg" alt="" width="40" height="40"><span>Python</span></li>
+                  <li><img src="assets/stack/pytorch.svg" alt="" width="40" height="40"><span>PyTorch</span></li>
+                  <li><img src="assets/stack/huggingface.svg" alt="" width="40" height="40"><span>Hugging Face</span></li>
+                  <li><img src="assets/stack/ollama.svg" alt="" width="40" height="40"><span>Ollama</span></li>
+                  <li><img src="assets/stack/vllm.svg" alt="" width="40" height="40"><span>vLLM</span></li>
+                </ul>
+              </div>
+              <div class="stack-group">
+                <h3>Data</h3>
+                <ul class="stack" role="list">
+                  <li><img src="assets/stack/numpy.svg" alt="" width="40" height="40"><span>NumPy</span></li>
+                  <li><img src="assets/stack/pandas.svg" alt="" width="40" height="40"><span>pandas</span></li>
+                </ul>
+              </div>
+              <div class="stack-group">
+                <h3>Backend &amp; tools</h3>
+                <ul class="stack" role="list">
+                  <li><img src="assets/stack/fastapi.svg" alt="" width="40" height="40"><span>FastAPI</span></li>
+                  <li><img src="assets/stack/docker.svg" alt="" width="40" height="40"><span>Docker</span></li>
+                  <li><img src="assets/stack/git.svg" alt="" width="40" height="40"><span>Git</span></li>
+                  <li><img src="assets/stack/github.svg" alt="" width="40" height="40"><span>GitHub</span></li>
+                </ul>
+              </div>
+            </div>
           </section>
 
           <hr class="divider">
           <footer class="profile-footer">
-            <a href="https://github.com/quoocnhaan?tab=repositories">All repositories &nearr;</a>
             <p class="signature">@quoocnhaan</p>
           </footer>
         </div>
