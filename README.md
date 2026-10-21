@@ -27,5 +27,3 @@ I'm an AI Engineer interested in machine learning, language models, and software
 </p>
 
 ---
-
-[All repositories](https://github.com/quoocnhaan?tab=repositories)
